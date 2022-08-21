@@ -1,0 +1,11 @@
+# common configuration for all namespace pods
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-base-config
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-base-config
+
